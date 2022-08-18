@@ -28,7 +28,7 @@ const About = () => {
 
 
 
-          <Col size="6">
+          <Col size="6" xs={6}>
             <Card className="bg-dark text-white app__about-card" >
 
               <Card.Body>
@@ -38,14 +38,14 @@ const About = () => {
 
                 </Card.Title>
 
-                <Card.Text>
+                <div className='text-center'>
                   <ul className='app__about-branches'>
                     <li>New York</li>
                     <li>Chicago</li>
                     <li>Texas</li>
                     <li>Atlanta</li>
                   </ul>
-                </Card.Text>
+                </div>
                 <Card.Img
                   alt="card-img"
 
@@ -60,7 +60,7 @@ const About = () => {
 
           </Col>
 
-          <Col size="6">
+          <Col size="6" xs={6}>
 
             <Card className="bg-dark text-white app__about-card">
 
@@ -70,13 +70,13 @@ const About = () => {
 
 
                 </Card.Title>
-                <Card.Text>
+                <div className='text-center'>
                   <ul className='app__about-branches'>
                     <li>+201111111111</li>
                     <li>+4911111</li>
 
                   </ul>
-                </Card.Text>
+                  </div>
 
 
                 <Card.Img
@@ -89,7 +89,7 @@ const About = () => {
 
 
           </Col>
-          <Col size="6"> <Card className="bg-dark text-white app__about-card">
+          <Col size="6" xs={6}> <Card className="bg-dark text-white app__about-card">
 
             <Card.Body>
 
@@ -98,13 +98,13 @@ const About = () => {
 
 
               </Card.Title>
-              <Card.Text className="text-center">
+              <div className='text-center'>
                 <ul className='app__about-branches'>
                   <li>19.99$</li>
                   <li>29.99$</li>
                   <li>39.99$</li>
                 </ul>
-              </Card.Text>
+                </div>
               <Card.Img
                 alt="card-img"
 
@@ -119,7 +119,7 @@ const About = () => {
           </Col>
 
 
-          <Col size="6"> <Card className="bg-dark text-white app__about-card">
+          <Col size="6" xs={6}> <Card className="bg-dark text-white app__about-card">
 
             <Card.Body>
 
@@ -128,13 +128,13 @@ const About = () => {
 
 
               </Card.Title>
-              <Card.Text className="text-center">
+              <div className='text-center'>
                 <ul className='app__about-branches'>
                   <li>Yoga</li>
                   <li>Boxing</li>
                   <li>Private Trainner</li>
                 </ul>
-              </Card.Text>
+                </div>
               <Card.Img
                 alt="card-img"
 

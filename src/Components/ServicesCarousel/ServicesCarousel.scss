@@ -1,0 +1,17 @@
+.app__servicesCarousel-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100vw;
+    max-height: 25rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    left: 50%;
+    @media screen and (max-width: 720px) {
+        max-width: 17rem;
+        max-height: 17rem;
+        object-fit: contain;
+    }
+
+}
